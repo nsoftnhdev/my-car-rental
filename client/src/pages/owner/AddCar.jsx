@@ -211,7 +211,7 @@ const AddCar = () => {
             value={car.location}
             className="px-3 py-2 mt-1 border border-borderColor rounded-md outline-none"
           >
-            <option value="">Select a loaction</option>
+            <option value="">Select a location</option>
             <option value="Ampang">Ampang</option>
             <option value="Ampang Jaya">Ampang Jaya</option>
             <option value="Bagan Nakhoda Omar">Bagan Nakhoda Omar</option>
