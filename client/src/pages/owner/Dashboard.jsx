@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { assets, dummyDashboardData } from "../../assets/assets";
+import { assets } from "../../assets/assets";
 import Title from "../../components/owner/Title";
 import { useAppContext } from "../../context/AppContext";
 import toast from "react-hot-toast";
@@ -85,7 +85,7 @@ const Dashboard = () => {
 
       <div className="flex flex-wrap items-start gap-6 mb-8 w-full">
         {/* Recent Booking */}
-        <div className="p-4 md:p-6 border border-borderColor rounded-md max-w-lg w-full">
+        <div className="p-4 md:p-6 border border-borderColor rounded-md max-w-[32.3%] w-full">
           <h1 className="text-lg font-medium">Recent Bookings</h1>
           <p className="text-gray-500">Latest customer bookings</p>
           {data.recentBookings.map((booking, index) => (
