@@ -12,16 +12,16 @@ const Testimonials = () => {
         "I've rented cars from various companies, but the experience with MyRental was exceptional.",
     },
     {
-      name: "Mohamed Ali",
+      name: "Rania Zara",
       address: "Cheras, Malaysia",
       image: assets.testimonial_image_2,
       testimonial:
         "MyRental made my trip easier. The car was delivered right to my my door, and customer services was fantastic!",
     },
     {
-      name: "Siti Aishah",
+      name: "Steven J",
       address: "Kuala Lumpur, Malaysia",
-      image: assets.testimonial_image_1,
+      image: assets.testimonial_image_3,
       testimonial:
         "I highly recommended MyRental! Their fleet is amazing, and I always feel like I'm getting the best deal with excellent services.",
     },
